@@ -4,7 +4,8 @@ const Job = new Schema({
   number: String,
   name: String,
   courseId: String,
-  files: String,
+  classGrade: String,
+  fileName: String,
   testName: String,
   createAt: {
     type: Date,

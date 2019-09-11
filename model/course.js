@@ -3,7 +3,7 @@ const Schema = db.Schema;
 const Course = new Schema({
   name: String,
   courseId: String,
-  tests:Array,
+  tests: Array,
   createAt: {
     type: Date,
     default: Date.now
